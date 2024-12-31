@@ -1,8 +1,9 @@
 import Card from "@/components/Card";
 import CardInfo from "@/components/info/CardInfo";
+import { ReactElement } from "react";
 
 function GetCards() {
-    let jsonObjects = []
+    let jsonObjects : CardInfo[] = []
 
     //populate array
     fetch('data.json')
@@ -16,9 +17,9 @@ function GetCards() {
             console.error('Error:', error);
         });
 
-    let components = []
+    let components : ReactElement[] = []
     jsonObjects.forEach(element => {
-        var x = (
+        var x :ReactElement = (
             <Card Title={element.Title} description={element.description}></Card>
         )
         components.push(x);
