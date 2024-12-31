@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "Cards/GetCards.ts", "Cards/GetCards.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "public/Cards/GetCards.ts", "public/Cards/GetCards.ts"],
   "exclude": ["node_modules"]
 }
