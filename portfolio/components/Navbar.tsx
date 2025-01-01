@@ -9,7 +9,7 @@ function Navbar({}: Props) {
     <div>
         <Link href="/"><h3>Summary</h3></Link>
         <Link href="/projects"><h3>Projects</h3></Link>
-        <Link href="/"><h3>Contact Info</h3></Link>
+        <Link href="/contact"><h3>Contact Info</h3></Link>
     </div>
   )
 }
