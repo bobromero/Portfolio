@@ -1,14 +1,17 @@
-import GetCards from '@/public/Cards/GetCards'
+import GetCards, { CardType } from '@/public/GetCards'
 import React from 'react'
 
 type Props = {}
 
 function Projects({}: Props) {
+  var cards = GetCards(CardType.Project)
   return (
     <div>
-      Projects
-      {GetCards()}
+      <h1>Projects</h1>
+      <div>
+        {cards}
       </div>
+    </div>
   )
 }
 
