@@ -35,18 +35,18 @@ export default function Page() {
       <div>
         <h3>Education</h3>
         <div>
-          <img src=""></img>
+          {/* <img src=""></img> */}
           <h4>Florida State University</h4>
           <p>January 2022 - December 2025</p>
           <p>Bachelor of Computer Science B.A. </p>
         </div>
         <div>
-          <img src=""></img>
+          {/* <img src=""></img> */}
           <h4>Christopher Columbus High School</h4>
           <p>August 2017 - June 2021</p>
         </div>
         <div>
-          <img src=""></img>
+          {/* <img src=""></img> */}
           <h4>Eagle Scout</h4>
           <p>August 2010 - December 2020</p>
           <p>Troop 816</p>

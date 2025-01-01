@@ -2,16 +2,40 @@
     "ProjectCards" :
     [
         {
-            "Title" : "super cool project",
-            "description" : "awesome super cool program",
-            "Image" : "https://i.ytimg.com/vi/kjOxkPl3RGo/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGCAgZSgfMA8=&rs=AOn4CLAh_VBOZusMeXq9cxmtAy-4zFasyg",
-            "Link":""
+            "Title": "Kingslayer",
+            "description": "Kingslayer is a video game made in Godot with a mix of gdscript and C#. This was a group project and can be found on Github.",
+            "Image": "https://github.com/bobromero/CEN-4090L-PROJ/blob/main/Resources/Misc/smalllogo.png?raw=true",
+            "Link":"https://github.com/bobromero/CEN-4090L-PROJ"
         },
         {
-            "Title" : "super cool project2",
-            "description" : "awesome super cool program",
-            "Image" : "https://i.ytimg.com/vi/kjOxkPl3RGo/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGCAgZSgfMA8=&rs=AOn4CLAh_VBOZusMeXq9cxmtAy-4zFasyg",
-            "Link":""
+            "Title": "Tic Tac Toe",
+            "description": "A tic tac toe game with an ai that will play you, and always win or tie. This was made with react.",
+            "Image": "https://raw.githubusercontent.com/bobromero/tic-tac-toe-bot/83b3960686d19ec36e0dd740fa7f9f775a0dca8a/src/logo.svg",
+            "Link":"https://github.com/bobromero/tic-tac-toe-bot"
+        },
+        {
+            "Title": "Slapshot Training Packs",
+            "description": "A Game mod made to add training packs for the players of slapshot made with C# making use of .Net dll's",
+            "Image": "https://staticdelivery.nexusmods.com/mods/5389/images/3/3-1695435860-271703098.png",
+            "Link":"https://github.com/bobromero/TrainingPacksSlapshot?tab=readme-ov-file"
+        },
+        {
+            "Title":"Snakob Hippo Mod",
+            "description": "A game mod that adds tons of hippos in the game by request of Snakob to showcase the ability to add custom models into slapshot",
+            "Image":"https://cdn.discordapp.com/attachments/1094336076690231298/1272221430733471810/image.png?ex=6776b689&is=67756509&hm=962479554ad218d2ca2b686800460fc430bfd01605cd43f71cff8c9df60b2857&",
+            "Link":"https://github.com/bobromero/SnakobHippoMod"
+        },
+        {
+            "Title":"Slapshot Modding Utils",
+            "description": "A utility to aid in getting your custom models into your slapshot mod.",
+            "Image":"https://camo.githubusercontent.com/c46d33756f211ac00a3a94e229a77acdeeea2460051c13d4c66adcde51282462/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313331373634363332383932373736303339302f49383158446f584c5f343030783430302e706e67",
+            "Link":"https://github.com/bobromero/SlapshotModdingUtils"
+        },
+        {
+            "Title":"React-Craft",
+            "description": "My first game made in javascript with react.",
+            "Image":"https://raw.githubusercontent.com/bobromero/React-Craft/379dddb50ea4c14e7ce00008d9edc107851b84ba/clickergame/src/logo.svg",
+            "Link":"https://github.com/bobromero/React-Craft"
         }
     ]
     
