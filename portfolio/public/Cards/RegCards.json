@@ -2,8 +2,10 @@
     "Cards" :
     [
         {
-            "Title": "My card",
-            "description": "My description"
+            "Title": "Kingslayer",
+            "description": "Kingslayer is a video game made in Godot with a mix of gdscript and C#. This was a group project and can be found on Github.",
+            "Image": "",
+            "Link":""
         }
     ]
     
