@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #3b3b3b;
+    color: aliceblue;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-text{
+    font-size: 3vw;
+    color:aliceblue;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 0.5rem;
+    background-color: #084b7a;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.6));
+}
+.navbar{
+    background-color: #1f1f1f;
+    width: 100%;
+}
+
+.section-head{
+    font-size: 2vh; /* 24px */
+    line-height: 2rem; /* 32px */
+    font-weight: 700;
+    padding: 4vw;
+}
+.summary-box{
+    background-color: #1f1f1f;
+    padding: 1vw;
+}
+.educationDiv{
+    padding:2vw;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
