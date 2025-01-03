@@ -7,7 +7,7 @@
 body{
     background-color: #3b3b3b;
     color: aliceblue;
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
@@ -16,34 +16,44 @@ body{
 
 .navbar-text{
     color:aliceblue;
-    background-color: #084b7a;
+    background-color: #3d3d3d;
     transition: 0.7s;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.6));
     
     flex: 0 1 auto;
+    padding-right: .5vw;
+    padding-left: .5vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    margin: .2vw;
     
-    padding: 1vh;
-    font-size: 3vh;
+    font-size: 2vmax;
     border-radius: 1rem;
-    height: max-content;
 }
 .navbar-text:hover{
-    background-color: #063b60;
+    background-color: #0e0e0e;
     color: rgb(191, 195, 200);
+    padding-left: .7vw;
+    padding-right: .7vw;
     transition: 0.7s;
 }
 
 .navbar-name{
     color:aliceblue;
-    font-size: 3vh;
+    font-size: 2vmax;
+    background-color: #1f1f1f;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .navbar{
     background-color: #1f1f1f;
 
     width: 100%;
-    padding:1rem;
+    height: max-content;
+    
 
-    display:grid;
+    display:grid; 
+    grid-template-columns: auto min-content auto;
 }
 .navbar-elements{
 
@@ -61,6 +71,10 @@ body{
 }
 .educationDiv{
     padding:2vw;
+}
+.middle{
+    display: flex;
+    align-items: center;
 }
 .center{
     display: flex;
