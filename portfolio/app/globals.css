@@ -2,26 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body{
     background-color: #3b3b3b;
     color: aliceblue;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    font-size: xx-large;
 }
 
 .navbar-text{
-    font-size: 3vw;
     color:aliceblue;
-    height: 5vh;
-    width: 20vw;
-    border-radius: 0.5rem;
     background-color: #084b7a;
+    transition: 0.7s;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.6));
+    
+    flex: 0 1 auto;
+    
+    padding: 1vh;
+    font-size: 3vh;
+    border-radius: 1rem;
+    height: max-content;
+}
+.navbar-text:hover{
+    background-color: #063b60;
+    color: rgb(191, 195, 200);
+    transition: 0.7s;
+}
+
+.navbar-name{
+    color:aliceblue;
+    font-size: 3vh;
 }
 .navbar{
     background-color: #1f1f1f;
+
     width: 100%;
+    padding:1rem;
+
+    display:grid;
+}
+.navbar-elements{
+
 }
 
 .section-head{
@@ -41,5 +66,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
+
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: small;
+      background-color: red;
+    }
+    
+    #photo {
+      width: 100%;
+    }
+  }
