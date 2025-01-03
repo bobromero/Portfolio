@@ -27,7 +27,7 @@ body{
     padding-bottom: .5vh;
     margin: .2vw;
     
-    font-size: 2vmax;
+    font-size: 4vmin;
     border-radius: 1rem;
 }
 .navbar-text:hover{
@@ -40,7 +40,7 @@ body{
 
 .navbar-name{
     color:aliceblue;
-    font-size: 2vmax;
+    font-size: 4vmin;
     background-color: #1f1f1f;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -55,9 +55,8 @@ body{
     display:grid; 
     grid-template-columns: auto min-content auto;
 }
-.navbar-elements{
 
-}
+
 
 .section-head{
     font-size: 2vh; /* 24px */
@@ -67,10 +66,11 @@ body{
 }
 .summary-box{
     background-color: #1f1f1f;
-    padding: 1vw;
+    margin: 1vh;
+    font-size: 3vmin;
 }
 .educationDiv{
-    padding:2vw;
+    
 }
 .middle{
     display: flex;
@@ -83,6 +83,17 @@ body{
     
 }
 
+.info-card-title{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.info-card-content{
+
+}
+
 
 @media only screen and (max-width: 480px) {
     body {
@@ -90,7 +101,8 @@ body{
       background-color: red;
     }
     
-    #photo {
-      width: 100%;
-    }
   }
+
+
+
+
