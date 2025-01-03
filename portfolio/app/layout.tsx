@@ -8,7 +8,7 @@ export default function DashboardLayout({
   }) {
     return (
       <html lang="en">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <body>
           {/* Layout UI */}
           {/* Place children where you want to render a page or nested layout */}
