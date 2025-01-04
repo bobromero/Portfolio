@@ -3,17 +3,18 @@ import CardInfo from './info/CardInfo'
 
 function Card({Title, description, Image, Link}: CardInfo) {
   return (
-    <div>
+    <div className='card'>
       <a  href={Link} target="_blank" rel="noopener noreferrer">
-        <h1>
+        <h1 className='card-title'>
             {Title}
         </h1>
-        
-        <p>
+        <br></br>
+        <p className='card-description main-page-font'>
             {description}
         </p>
-        
-        <img src={Image}></img>
+        <br></br>
+        <img className='card-image' src={Image}></img>
+        <br></br>
       </a>
     </div>
   )
