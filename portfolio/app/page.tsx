@@ -41,27 +41,36 @@ export default function Page() {
                 <div className='education-div'>
                   <h4 className='subsection-title'>Florida State University</h4>
                   <br></br>
-                  <img className='education-image' src="/fsu.png" alt='fsu logo'></img>
+                  <div className='center'>
+                    <img className='education-image' src="/fsu.png" alt='fsu logo'></img>
+
+                  </div>
                   <br></br>
-                  <p className='main-page-font'>January 2022 - December 2025</p>
-                  <p className='main-page-font'>Bachelor of Computer Science B.A. </p>
+                  <p className='main-page-font text-center'>January 2022 - December 2025</p>
+                  <p className='main-page-font text-center'>Bachelor of Computer Science B.A. </p>
                 </div>
                 <br></br>
-                <div className='education-div'>
+                <div className='education-div '>
                   <h4 className='subsection-title'>Christopher Columbus High School</h4>
                   <br></br>
-                  <img className='education-image' src="/columbus.jpg" alt='CCHS logo'></img>
+                  <div className='center'>
+                    <img className='education-image' src="/columbus.jpg" alt='CCHS logo'></img>
+
+                  </div>
                   <br></br>
-                  <p className='main-page-font'>August 2017 - June 2021</p>
+                  <p className='main-page-font text-center'>August 2017 - June 2021</p>
                 </div>
                 <br></br>
                 <div className='education-div'>
                   <h4 className='subsection-title'>Eagle Scout</h4>
                   <br></br>
+                  <div className='center'>
                   <img className='education-image' src="/bsa.png" alt='BSA logo'></img>
+
+                  </div>
                   <br></br>
-                  <p className='main-page-font'>August 2010 - December 2020</p>
-                  <p className='main-page-font'>Troop 816</p>
+                  <p className='main-page-font text-center'>August 2010 - December 2020</p>
+                  <p className='main-page-font text-center'>Troop 816</p>
                   <br></br>
                 </div>
 
@@ -72,38 +81,24 @@ export default function Page() {
 
             <div className='summary-box'>
               <InfoCard Title ="Skills">
-                <div className='p-2'>
+                <div className=''>
 
                 <div >
                   <h4 className='subsection-title'>Web Dev(Html, Css, Javascript)</h4>
-                  <br></br>
                   <p className='main-page-font'>I started developing with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> and fell in love after using <strong>React</strong> and <strong>NodeJS</strong>.</p>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
                 <div>
                   <h4 className='subsection-title'>C# and .Net</h4>
-                  <br></br>
                   <p className='main-page-font'>I have spent a whole lot of time in Visual Studio working with <strong>.Net</strong>.Net and <strong>C#</strong>, developing everything from video games to management services.</p>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
                 <div>
                   <h4 className='subsection-title'>Game Dev(Unity, Godot)</h4>
-                  <br></br>
                   <p className='main-page-font'>I have spent a lot of time developing <strong>video games</strong> and <strong>mods</strong> and find it enjoyable to do in my spare time.</p>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
                 <div>
                   <h4 className='subsection-title'>Databases (PostgreSQL, MongoDB)</h4>
-                  <br></br>
                   <p className='main-page-font'>Data is the most important part of any tech business, and being proficient in the leading technologies is required.</p>
                 </div>
-                <br></br>
                 </div>
               </InfoCard>
             </div>
