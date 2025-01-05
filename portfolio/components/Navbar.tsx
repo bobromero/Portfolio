@@ -7,7 +7,7 @@ function Navbar({}: Props) {
   return (
     <div>
       <div className='navbar-name'>
-        <h1 className='font-bold font-sans'>ROBERT ROMERO</h1>
+        <h1 className='font-bold font-sans navbar-name-text'>ROBERT ROMERO</h1>
       </div>
       <nav className='navbar'>
           <div className='middle flex justify-end'>

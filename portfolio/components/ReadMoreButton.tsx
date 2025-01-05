@@ -13,7 +13,8 @@ function ReadMoreButton({children}:any) {
         <div>
             {isReadMore? children[1] : children[0]}
         </div>
-        <button onClick={toggleText}>{isReadMore ? 'Read Less' : 'Read More'}</button>
+        <br></br>
+        <button className='main-page-font' onClick={toggleText}><strong>{isReadMore ? 'Read Less' : 'Read More'}</strong></button>
     </div>
   )
 }

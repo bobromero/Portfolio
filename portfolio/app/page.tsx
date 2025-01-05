@@ -39,7 +39,7 @@ export default function Page() {
             <div className='summary-box'>
               <InfoCard Title="Education">
                 <div className='education-div'>
-                  <h4 className='education-title'>Florida State University</h4>
+                  <h4 className='subsection-title'>Florida State University</h4>
                   <br></br>
                   <img className='education-image' src="/fsu.png" alt='fsu logo'></img>
                   <br></br>
@@ -48,7 +48,7 @@ export default function Page() {
                 </div>
                 <br></br>
                 <div className='education-div'>
-                  <h4 className='education-title'>Christopher Columbus High School</h4>
+                  <h4 className='subsection-title'>Christopher Columbus High School</h4>
                   <br></br>
                   <img className='education-image' src="/columbus.jpg" alt='CCHS logo'></img>
                   <br></br>
@@ -56,7 +56,7 @@ export default function Page() {
                 </div>
                 <br></br>
                 <div className='education-div'>
-                  <h4 className='education-title'>Eagle Scout</h4>
+                  <h4 className='subsection-title'>Eagle Scout</h4>
                   <br></br>
                   <img className='education-image' src="/bsa.png" alt='BSA logo'></img>
                   <br></br>
@@ -72,27 +72,39 @@ export default function Page() {
 
             <div className='summary-box'>
               <InfoCard Title ="Skills">
+                <div className='p-2'>
 
-                <div>
-                  <h4>Web Dev(Html, Css, Javascript)</h4>
+                <div >
+                  <h4 className='subsection-title'>Web Dev(Html, Css, Javascript)</h4>
+                  <br></br>
                   <p className='main-page-font'>I started developing with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> and fell in love after using <strong>React</strong> and <strong>NodeJS</strong>.</p>
                 </div>
                 <br></br>
+                <br></br>
+                <br></br>
                 <div>
-                  <h4>C# and .Net</h4>
+                  <h4 className='subsection-title'>C# and .Net</h4>
+                  <br></br>
                   <p className='main-page-font'>I have spent a whole lot of time in Visual Studio working with <strong>.Net</strong>.Net and <strong>C#</strong>, developing everything from video games to management services.</p>
                 </div>
                 <br></br>
+                <br></br>
+                <br></br>
                 <div>
-                  <h4>Game Dev(Unity, Godot)</h4>
+                  <h4 className='subsection-title'>Game Dev(Unity, Godot)</h4>
+                  <br></br>
                   <p className='main-page-font'>I have spent a lot of time developing <strong>video games</strong> and <strong>mods</strong> and find it enjoyable to do in my spare time.</p>
                 </div>
                 <br></br>
+                <br></br>
+                <br></br>
                 <div>
-                  <h4>Databases(PostgreSQL, MongoDB)</h4>
+                  <h4 className='subsection-title'>Databases (PostgreSQL, MongoDB)</h4>
+                  <br></br>
                   <p className='main-page-font'>Data is the most important part of any tech business, and being proficient in the leading technologies is required.</p>
                 </div>
                 <br></br>
+                </div>
               </InfoCard>
             </div>
           </div>
