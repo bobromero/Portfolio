@@ -60,7 +60,8 @@ body{
     padding-bottom: 1vh;
 
     display:grid; 
-    grid-template-columns: auto min-content auto;
+    /* grid-template-columns: auto min-content auto; */
+    grid-template-columns: auto  auto;
 }
 
 .card{
@@ -122,6 +123,7 @@ body{
     padding-right: 2vw;
     font-size: 2vmax;
     font-weight: 200;
+    text-align: center;
 }
 .info-card-content{
     background-color:#2e2e2e;
@@ -136,7 +138,8 @@ body{
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
 .education-title{
-    font-size: 1em;
+    font-size: 3vmin;
+    text-align: center;
 }
 .education-date{
     
@@ -147,13 +150,16 @@ body{
 .education-div{
     background-color:#2e2e2e;
     border-radius: 10px;
+    
 }
 .card-title{
     font-weight: 600;
     font-size: 2vmax;
+    padding: 2vmin;
 }
 .card-description{
-    font-size: 2em;
+    padding: 2vmin;
+    font-size: 2vmax;
 }
 .card-image{
     width: 100%;
@@ -171,10 +177,17 @@ body{
 .subsection-title{
     font-weight: 600;
     font-size: 2vmax;
+
+    text-align: center;
+
+    padding-right:2vmin;
+    padding-left:2vmin;
 }
 .main-page-font{
     font-size: 1.5vmax;
     transition: .2s;
+
+    padding: 2vmin;
 }
 .main-page-font strong{
     color: rgb(255, 255, 255);
@@ -198,7 +211,7 @@ body{
     max-width: 100%; 
     padding: 1vmin;
     height: auto;
-    border-radius: 70;
+    border-radius: 10px;
 }
 #projects-header{
     font-weight: 700;
@@ -246,12 +259,40 @@ body{
 .project-card-image{
     width: 1fr;
     height: auto;
+    padding: 1vmin;
+    border-radius: 10px;
 }
 
+#contact-grid{
+    display:grid;
+    grid-template-columns: max-content max-content max-content;
+    gap: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    
+
+    justify-items: center;
+    align-items: center;
+}
+.cotact-background{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-image{
+    height: 12vmin;
+    width: auto;
+    border-radius: 10px;
+}
 
 @media only screen and (max-width: 480px) {
     body {
-      background-color: red;
+      
     }
     
   }
@@ -270,6 +311,15 @@ body{
     }
     .main-page-font{
         font-size: 3vmax;
+    }
+    .info-card-title{
+        font-size: 4vmax;
+    }
+    .subsection-title{
+        font-size: 4vmax;
+    }
+    .card-title{
+        font-size: 4vmax;
     }
   }
 
