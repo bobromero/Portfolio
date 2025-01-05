@@ -14,13 +14,13 @@ function Navbar({}: Props) {
             <Link className='navbar-text' href="/"><h3 className='p-1'>SUMMARY</h3></Link>
           </div>
 
-          <div className='center '>
+          <div className='middle flex justify-start'>
             <Link className='navbar-text' href="/projects"><h3 className='p-1'>PROJECTS</h3></Link>
           </div>
 
-          <div className='middle'>
+          {/* <div className='middle'>
             <Link className='navbar-text' href="/contact"><h3 className='p-1'>CONTACT INFO</h3></Link>
-          </div>
+          </div> */}
 
       </nav>
 
