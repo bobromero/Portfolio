@@ -2,6 +2,7 @@ import GetCards, { CardType } from '@/public/GetCards'
 import React from 'react'
 import InfoCard from '@/components/InfoCard'
 import ReadMoreButton from '@/components/ReadMoreButton'
+import Image from 'next/image'
 
 
 export default function Page() {
@@ -12,7 +13,7 @@ export default function Page() {
       <div>
         <div className='summary-grid'>
         <div className='robert-parent'>
-          <img className='robert-img' src="/profileimg.jpg" alt="Picture of Robert" />
+          <Image className='robert-Image' src="/profileImage.jpg" alt="Picture of Robert" />
         </div>
 
         <InfoCard Title="About me">
@@ -42,7 +43,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Florida State University</h4>
                   <br></br>
                   <div className='center'>
-                    <img className='education-image' src="/fsu.png" alt='fsu logo'></img>
+                    <Image className='education-image' src="/fsu.png" alt='fsu logo'></Image>
 
                   </div>
                   <br></br>
@@ -54,7 +55,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Christopher Columbus High School</h4>
                   <br></br>
                   <div className='center'>
-                    <img className='education-image' src="/columbus.jpg" alt='CCHS logo'></img>
+                    <Image className='education-image' src="/columbus.jpg" alt='CCHS logo'></Image>
 
                   </div>
                   <br></br>
@@ -65,7 +66,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Eagle Scout</h4>
                   <br></br>
                   <div className='center'>
-                  <img className='education-image' src="/bsa.png" alt='BSA logo'></img>
+                  <Image className='education-image' src="/bsa.png" alt='BSA logo'></Image>
 
                   </div>
                   <br></br>

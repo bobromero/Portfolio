@@ -4,7 +4,7 @@ import React from 'react'
 
 
 function Projects() {
-  let cards = GetCards(CardType.Project)
+  const cards = GetCards(CardType.Project)
   return (
     <div className='projects-page'>
       <h1 id='projects-header'>Projects</h1>
