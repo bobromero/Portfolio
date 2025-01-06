@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-function Contact({}: Props) {
+function Contact() {
   return (
     <div className='cotact-background'>
       <div  id='contact-grid'>

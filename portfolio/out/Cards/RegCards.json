@@ -1,0 +1,27 @@
+{
+    "Cards" :
+    [
+        {
+            "Title": "Kingslayer",
+            "description": "Kingslayer is a video game made in Godot with a mix of gdscript and C#. This was a group project and can be found on Github.",
+            "Image": "https://github.com/bobromero/CEN-4090L-PROJ/blob/main/Resources/Misc/smalllogo.png?raw=true",
+            "Link":"https://github.com/bobromero/CEN-4090L-PROJ"
+        },
+        {
+            "Title": "Slapshot Training Packs",
+            "description": "A Game mod made to add training packs for the players of slapshot made with C# making use of .Net dll's",
+            "Image": "https://staticdelivery.nexusmods.com/mods/5389/images/3/3-1695435860-271703098.png",
+            "Link":"https://github.com/bobromero/TrainingPacksSlapshot?tab=readme-ov-file"
+            
+        },
+        {
+            "Title": "Tic Tac Toe",
+            "description": "A tic tac toe game with an ai that will play you, and always win or tie. This was made with react.",
+            "Image": "https://raw.githubusercontent.com/bobromero/tic-tac-toe-bot/83b3960686d19ec36e0dd740fa7f9f775a0dca8a/src/logo.svg",
+            "Link":"https://github.com/bobromero/tic-tac-toe-bot"
+        }
+        
+    ]
+    
+
+}

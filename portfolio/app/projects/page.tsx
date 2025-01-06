@@ -2,10 +2,9 @@ import ProjectCard from '@/components/ProjectCard'
 import GetCards, { CardType } from '@/public/GetCards'
 import React from 'react'
 
-type Props = {}
 
-function Projects({}: Props) {
-  var cards = GetCards(CardType.Project)
+function Projects() {
+  let cards = GetCards(CardType.Project)
   return (
     <div className='projects-page'>
       <h1 id='projects-header'>Projects</h1>
