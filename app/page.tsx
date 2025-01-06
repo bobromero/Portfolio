@@ -2,7 +2,6 @@ import GetCards, { CardType } from '@/public/GetCards'
 import React from 'react'
 import InfoCard from '@/components/InfoCard'
 import ReadMoreButton from '@/components/ReadMoreButton'
-import Image from 'next/image'
 
 
 export default function Page() {
@@ -13,7 +12,7 @@ export default function Page() {
       <div>
         <div className='summary-grid'>
         <div className='robert-parent'>
-          <Image className='robert-Image' src="/profileImage.jpg" alt="Picture of Robert" />
+          <img className='robert-Image' src="https://github.com/bobromero/Portfolio/blob/main/public/profileimg.jpg?raw=true" alt="Picture of Robert" />
         </div>
 
         <InfoCard Title="About me">
@@ -43,7 +42,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Florida State University</h4>
                   <br></br>
                   <div className='center'>
-                    <Image className='education-image' src="/fsu.png" alt='fsu logo'></Image>
+                    <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/fsu.png?raw=true" alt='fsu logo'></img>
 
                   </div>
                   <br></br>
@@ -55,7 +54,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Christopher Columbus High School</h4>
                   <br></br>
                   <div className='center'>
-                    <Image className='education-image' src="/columbus.jpg" alt='CCHS logo'></Image>
+                    <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/columbus.jpg?raw=true" alt='CCHS logo'></img>
 
                   </div>
                   <br></br>
@@ -66,7 +65,7 @@ export default function Page() {
                   <h4 className='subsection-title'>Eagle Scout</h4>
                   <br></br>
                   <div className='center'>
-                  <Image className='education-image' src="/bsa.png" alt='BSA logo'></Image>
+                  <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/bsa.png?raw=true" alt='BSA logo'></img>
 
                   </div>
                   <br></br>

@@ -213,7 +213,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.robert-img{
+.robert-Image{
     width: 50%;
     max-width: 100%; 
     padding: 4vmin;
@@ -221,7 +221,7 @@ body{
     border-radius: 100px;
 }
 .education-image{
-    width: 30%;
+    width: 40%;
     max-width: 100%; 
     padding: 1vmin;
     height: auto;
