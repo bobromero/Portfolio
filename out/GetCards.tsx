@@ -26,7 +26,7 @@ function GetCards(type : CardType) {
                 <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link}></ProjectCard>
             )
         }
-        
+
         components.push(x);
     });
     return components
