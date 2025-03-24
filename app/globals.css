@@ -4,43 +4,43 @@
 
 
 
-body{
+body {
     background-color: #3b3b3b;
     color: aliceblue;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
 }
 
-.navbar-text{
-    color:aliceblue;
+.navbar-text {
+    color: aliceblue;
     background-color: #3d3d3d;
     transition: 0.7s;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 3px rgb(0 0 0 / 0.6));
-    
+
     flex: 0 1 auto;
     padding-right: .5vw;
     padding-left: .5vw;
     padding-top: .5vh;
     padding-bottom: .5vh;
     margin: .2vw;
-   
+
 
     font-size: 1.5vmax;
     border-radius: 10px;
 }
-.navbar-text:hover{
+
+.navbar-text:hover {
     background-color: #410000;
     color: rgb(191, 195, 200);
-    padding-left: .7vw;
-    padding-right: .7vw;
     transition: 0.7s;
+    transform: scale(1.05);
     border-radius: 15px;
 }
 
-.navbar-name{
-    color:aliceblue;
+.navbar-name {
+    color: aliceblue;
     font-size: 3vmax;
     background-color: #1f1f1f;
     padding-top: 1vh;
@@ -49,23 +49,25 @@ body{
     text-align: center;
     justify-content: center;
 }
-.navbar-name-text{
+
+.navbar-name-text {
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
-.navbar{
+
+.navbar {
     background-color: #1f1f1f;
 
     width: 100%;
     height: max-content;
     padding-bottom: 1vh;
 
-    display:grid; 
+    display: grid;
     /* grid-template-columns: auto min-content auto; */
-    grid-template-columns: auto  auto;
+    grid-template-columns: auto auto;
 }
 
-.card{
-    background-color:#2e2e2e;
+.card {
+    background-color: #2e2e2e;
     margin: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -74,24 +76,29 @@ body{
     border-radius: 10px;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 
-    transition: .3s;   
+    transition: .3s;
 }
-.card:hover{
+
+.card:hover {
     background-color: #410000;
-    color: #ffcaca;
+    /* color: #ffcaca; */
 }
 
 
-.about-me{
-    display:flex;
+.about-me {
+    display: flex;
 }
-.section-head{
-    font-size: 2vh; /* 24px */
-    line-height: 2rem; /* 32px */
+
+.section-head {
+    font-size: 2vh;
+    /* 24px */
+    line-height: 2rem;
+    /* 32px */
     font-weight: 700;
     padding: 4vw;
 }
-.summary-box{
+
+.summary-box {
     background-color: #1f1f1f;
     margin: 3vmin;
     font-size: 3vmin;
@@ -99,25 +106,29 @@ body{
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 8px rgb(0 0 0 / 0.6));
     height: fit-content;
 }
-.middle{
+
+.middle {
     display: flex;
     align-items: center;
 }
-.center{
+
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.read-more{
+
+.read-more {
     color: #410000;
 }
-.main-page-grid{
+
+.main-page-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-.info-card-title{
+.info-card-title {
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 2vh;
@@ -126,15 +137,17 @@ body{
     font-weight: 700;
     text-align: center;
 }
-.info-card-description{
+
+.info-card-description {
     padding-left: 2vw;
     padding-right: 2vw;
     font-size: 2vmax;
     font-weight: 200;
     text-align: center;
 }
-.info-card-content{
-    background-color:#2e2e2e;
+
+.info-card-content {
+    background-color: #2e2e2e;
     margin: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -142,114 +155,130 @@ body{
     padding-bottom: 1vh;
     border-radius: 10px;
 }
-.info-card{
+
+.info-card {
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
-.education-title{
+
+.education-title {
     font-size: 3vmin;
     text-align: center;
 }
-.education-date{
-    
-}
-.education-content{
+
+.education-date {}
+
+.education-content {}
+
+.education-div {
+    background-color: #2e2e2e;
+    border-radius: 10px;
 
 }
-.education-div{
-    background-color:#2e2e2e;
-    border-radius: 10px;
-    
-}
-.card-title{
+
+.card-title {
     font-weight: 600;
     font-size: 2vmax;
     padding: 2vmin;
 }
-.card-description{
+
+.card-description {
     padding: 2vmin;
     font-size: 2vmax;
 }
-.card-image{
+
+.card-image {
     width: 100%;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
-.summary-grid{
-    display:grid;
+
+.summary-grid {
+    display: grid;
     grid-template-rows: auto 1fr;
 }
-.education-skills-grid{
-    display:grid;
+
+.education-skills-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.subsection-title{
+
+.subsection-title {
     font-weight: 600;
     font-size: 2vmax;
 
     text-align: center;
 
-    padding-right:2vmin;
-    padding-left:2vmin;
+    padding-right: 2vmin;
+    padding-left: 2vmin;
 }
-.main-page-font{
+
+.main-page-font {
     font-size: 1.5vmax;
     transition: .2s;
 
     padding: 2vmin;
 }
-.read-more strong{
+
+.read-more strong {
     color: rgb(255, 255, 255);
     font-weight: 700;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgba(255, 255, 255, 0.6));
     transition: .5s;
 }
-.read-more strong:hover{
-    color:#8f3434;
+
+.read-more strong:hover {
+    color: #8f3434;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.6));
-    
+
 }
-.robert-parent{
+
+.robert-parent {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.robert-Image{
+
+.robert-Image {
     width: 50%;
-    max-width: 100%; 
+    max-width: 100%;
     padding: 4vmin;
     height: auto;
     border-radius: 100px;
 }
-.education-image{
+
+.education-image {
     width: 40%;
-    max-width: 100%; 
+    max-width: 100%;
     padding: 1vmin;
     height: auto;
     border-radius: 10px;
 }
-#projects-header{
+
+#projects-header {
     font-weight: 700;
     font-size: 3vmax;
     text-align: center;
     padding: 2vh;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
-#projects-grid{
-    display:grid;
+
+#projects-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
     gap: 4vmin;
     padding: 4vmin;
 }
-.projects-page{
+
+.projects-page {
     background-color: #1f1f1f;
     margin: 2vmin;
     border-radius: 10px;
 }
 
-.project-card{
-    background-color:#2e2e2e;
+.project-card {
+    background-color: #2e2e2e;
     margin: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -264,36 +293,42 @@ body{
     max-width: 80%;
     transition: .3s;
 }
-.project-card:hover{
+
+.project-card:hover {
     background-color: #410000;
-    color: #ffcaca;
+    transform: scale(1.05);
+    /* color: #ffcaca; */
 }
-.project-card-grid{
+
+.project-card-grid {
     display: grid;
     grid-template-rows: auto auto auto;
     gap: 2vh;
 }
 
-.project-card-image{
+.project-card-image {
     width: 1fr;
     height: auto;
     padding: 1vmin;
     border-radius: 10px;
 }
 
-#contact-grid{
-    display:grid;
+
+
+#contact-grid {
+    display: grid;
     grid-template-columns: max-content max-content max-content;
     gap: 1vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
 
-    
+
 
     justify-items: center;
     align-items: center;
 }
-.cotact-background{
+
+.cotact-background {
     margin-top: 5vh;
     margin-bottom: 5vh;
 
@@ -302,42 +337,47 @@ body{
     justify-content: center;
     align-items: center;
 }
-.contact-image{
+
+.contact-image {
+    background-color:white;
     height: 12vmin;
     width: auto;
     border-radius: 10px;
 }
 
 @media only screen and (max-width: 480px) {
-    body {
-      
-    }
-    
-  }
+    body {}
 
-  @media only screen and (max-width: 720px) {
-    #projects-grid{
+}
+
+@media only screen and (max-width: 720px) {
+    #projects-grid {
         grid-template-columns: 1fr;
     }
-    .main-page-grid{
+
+    .main-page-grid {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .education-skills-grid{
+
+    .education-skills-grid {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .main-page-font{
+
+    .main-page-font {
         font-size: 3vmax;
     }
-    .info-card-title{
-        font-size: 4vmax;
-    }
-    .subsection-title{
-        font-size: 4vmax;
-    }
-    .card-title{
-        font-size: 4vmax;
-    }
-  }
 
+    .info-card-title {
+        font-size: 4vmax;
+    }
+
+    .subsection-title {
+        font-size: 4vmax;
+    }
+
+    .card-title {
+        font-size: 4vmax;
+    }
+}
