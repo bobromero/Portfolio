@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
+    font-size: 1vw;
 }
 
 .navbar-text {
@@ -198,7 +198,6 @@ body {
     display: grid;
     grid-template-rows: 1fr auto;
     padding: 1em;
-
 }
 
 .education-skills-grid {
@@ -266,6 +265,7 @@ body {
     padding: 1em;
     height: auto;
     border-radius: 10px;
+
 }
 
 #projects-header {
@@ -359,8 +359,38 @@ body {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 480px) {
-    body {}
+@media only screen and (max-width: 1350px) {
+
+    body {
+        font-size: 1.2vw;
+
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .main-page-grid {
+        grid-template-columns: auto;
+    }
+
+    #projects-grid {
+        grid-template-columns: auto;
+    }
+
+    .main-page-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .education-skills-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        font-size: 1em;
+
+    }
 
 }
 
@@ -379,6 +409,10 @@ body {
         gap: 1em;
     }
 
+    body {
+        font-size: 1em;
+
+    }
 
     .main-page-grid {
         display: grid;
@@ -392,12 +426,10 @@ body {
 
 }
 
-@media only screen and (max-width: 1000px) {
-    .main-page-grid {
-        grid-template-columns: auto;
+
+@media only screen and (max-width: 520px) {
+    body {
+        font-size: 3vw;
     }
 
-    #projects-grid {
-        grid-template-columns: auto;
-    }
 }
