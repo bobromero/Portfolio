@@ -6,16 +6,16 @@ import ReadMoreButton from '@/components/ReadMoreButton'
 
 export default function Page() {
   return (
-    <div >
+    <div className='main-page'>
       <div className='main-page-grid'>
         <div className='summary-box about-me'>
           <div>
             <div className='summary-grid'>
-              <div className='robert-parent'>
-                <img className='robert-Image' src="https://github.com/bobromero/Portfolio/blob/main/public/profileimg.jpg?raw=true" alt="Picture of Robert" />
-              </div>
 
               <InfoCard Title="About me">
+                <div className='robert-parent'>
+                  <img className='robert-Image' src="/Images/profileimg.jpg" alt="Picture of Robert" />
+                </div>
 
                 <ReadMoreButton>
                   <p className='main-page-font'>
@@ -36,72 +36,57 @@ export default function Page() {
             </div>
             <div className='education-skills-grid'>
 
-              <div className='summary-box'>
-                <InfoCard Title="Education">
-                  <div className='education-div'>
-                    <h4 className='subsection-title'>Florida State University</h4>
-                    <br></br>
-                    <div className='center'>
-                      <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/fsu.png?raw=true" alt='fsu logo'></img>
+              <InfoCard Title="Education">
+                <div className='education-div'>
+                  <h4 className='subsection-title'>Florida State University</h4>
+                  <div className='center'>
+                    <img className='education-image' src="/Images/fsu.png" alt='fsu logo'></img>
 
-                    </div>
-                    <br></br>
-                    <p className='main-page-font text-center'>January 2022 - December 2025</p>
-                    <p className='main-page-font text-center'>Bachelor of Computer Science B.A. </p>
                   </div>
-                  <br></br>
-                  <div className='education-div '>
-                    <h4 className='subsection-title'>Christopher Columbus High School</h4>
-                    <br></br>
-                    <div className='center'>
-                      <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/columbus.jpg?raw=true" alt='CCHS logo'></img>
+                  <p className='main-page-font text-center'>January 2022 - December 2025</p>
+                  <p className='main-page-font text-center'>Bachelor of Computer Science B.A. </p>
+                </div>
+                <div className='education-div '>
+                  <h4 className='subsection-title'>Christopher Columbus High School</h4>
+                  <div className='center'>
+                    <img className='education-image' src="/Images/columbus.jpg" alt='CCHS logo'></img>
 
-                    </div>
-                    <br></br>
-                    <p className='main-page-font text-center'>August 2017 - June 2021</p>
                   </div>
-                  <br></br>
-                  <div className='education-div'>
-                    <h4 className='subsection-title'>Eagle Scout</h4>
-                    <br></br>
-                    <div className='center'>
-                      <img className='education-image' src="https://github.com/bobromero/Portfolio/blob/main/public/bsa.png?raw=true" alt='BSA logo'></img>
+                  <p className='main-page-font text-center'>August 2017 - June 2021</p>
+                </div>
+                <div className='education-div'>
+                  <h4 className='subsection-title'>Eagle Scout</h4>
+                  <div className='center'>
+                    <img className='education-image' src="/Images/bsa.png" alt='BSA logo'></img>
 
-                    </div>
-                    <br></br>
-                    <p className='main-page-font text-center'>August 2010 - December 2020</p>
-                    <p className='main-page-font text-center'>Troop 816</p>
-                    <br></br>
                   </div>
+                  <p className='main-page-font text-center'>August 2010 - December 2020</p>
+                  <p className='main-page-font text-center'>Troop 816</p>
+                </div>
 
-                </InfoCard>
+              </InfoCard>
 
 
-              </div>
 
-              <div className='summary-box'>
-                <InfoCard Title="Skills">
-                  <div className=''>
+              <InfoCard Title="Skills">
 
-                    <div >
-                      <h4 className='subsection-title'>Web Dev(Html, Css, Javascript)</h4>
-                      <p className='main-page-font'>I started developing with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> and fell in love after using <strong>React</strong> and <strong>NodeJS</strong>.</p>
-                    </div>
-                    <div>
-                      <h4 className='subsection-title'>C# and .Net</h4>
-                      <p className='main-page-font'>I have spent a whole lot of time in Visual Studio working with <strong>.Net</strong>.Net and <strong>C#</strong>, developing everything from video games to management services.</p>
-                    </div>
-                    <div>
-                      <h4 className='subsection-title'>Game Dev(Unity, Godot)</h4>
-                      <p className='main-page-font'>I have spent a lot of time developing <strong>video games</strong> and <strong>mods</strong> and find it enjoyable to do in my spare time.</p>
-                    </div>
-                    <div>
-                      <h4 className='subsection-title'>Databases (PostgreSQL, MongoDB)</h4>
-                      <p className='main-page-font'>Data is the most important part of any tech business, and being proficient in the leading technologies is required.</p>
-                    </div>
-                  </div>
-                </InfoCard>
-              </div>
+                <div className='education-div'>
+                  <h4 className='subsection-title'>Web Dev(Html, Css, Javascript)</h4>
+                  <p className='main-page-font'>I started developing with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> and fell in love after using <strong>React</strong> and <strong>NodeJS</strong>.</p>
+                </div>
+                <div className='education-div'>
+                  <h4 className='subsection-title'>C# and .Net</h4>
+                  <p className='main-page-font'>I have spent a whole lot of time in Visual Studio working with <strong>.Net</strong>.Net and <strong>C#</strong>, developing everything from video games to management services.</p>
+                </div>
+                <div className='education-div'>
+                  <h4 className='subsection-title'>Game Dev(Unity, Godot)</h4>
+                  <p className='main-page-font'>I have spent a lot of time developing <strong>video games</strong> and <strong>mods</strong> and find it enjoyable to do in my spare time.</p>
+                </div>
+                <div className='education-div'>
+                  <h4 className='subsection-title'>Databases (PostgreSQL, MongoDB)</h4>
+                  <p className='main-page-font'>Data is the most important part of any tech business, and being proficient in the leading technologies is required.</p>
+                </div>
+              </InfoCard>
             </div>
 
 
