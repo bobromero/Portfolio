@@ -7,22 +7,22 @@ import { ReactElement } from "react";
 import Cards from "@/public/Cards/RegCards.json"
 import Projects from "@/public/ProjectCards/ProjectCards.json"
 
-export enum CardType{
+export enum CardType {
     Card,
     Project
 }
 
-function GetCards(type : CardType) {
+function GetCards(type: CardType) {
     var jsonObjects = GetCardInfo(type);
 
-    let components : ReactElement[] = []
+    let components: ReactElement[] = []
     jsonObjects.forEach((element: CardInfo) => {
         if (type == CardType.Card) {
-            var x :ReactElement = (
+            var x: ReactElement = (
                 <Card key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link}></Card>
             )
-        }else{
-            var x :ReactElement = (
+        } else {
+            var x: ReactElement = (
                 <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link}></ProjectCard>
             )
         }
@@ -32,7 +32,7 @@ function GetCards(type : CardType) {
     return components
 }
 
-function GetCardInfo(type : CardType) {
+function GetCardInfo(type: CardType) {
     return (type == CardType.Card) ? Cards.Cards : Projects.ProjectCards
 }
 
