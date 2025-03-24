@@ -3,7 +3,7 @@
         {
             "Title": "Kingslayer",
             "description": "Kingslayer is a video game made in Godot with a mix of gdscript and C#. This was a group project and can be found on Github.",
-            "Image": "/Images/j",
+            "Image": "https://github.com/bobromero/CEN-4090L-PROJ/blob/main/Resources/Misc/smalllogo.png?raw=true",
             "Link": "https://github.com/bobromero/CEN-4090L-PROJ"
         },
         {
