@@ -14,7 +14,7 @@ export default function Page() {
 
               <InfoCard Title="About me">
                 <div className='robert-parent'>
-                  <img className='robert-Image' src="/Images/profileimg.jpg" alt="Picture of Robert" />
+                  <img className='robert-Image' src="/Portfolio/Images/profileimg.jpg" alt="Picture still not of Robert" />
                 </div>
 
                 <ReadMoreButton>
