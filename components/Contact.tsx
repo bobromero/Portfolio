@@ -7,12 +7,12 @@ function Contact() {
 
         <div>
           <a href="https://github.com/bobromero" target="_blank" rel="noopener noreferrer">
-            <img className='contact-image' src="/Images/github.png" alt='Github'></img>
+            <img className='contact-image' src={`${process.env.NEXT_PUBLIC_BASE_PATH}/Images/github.png"`} alt='Github'></img>
           </a>
         </div>
         <div>
           <a href="https://www.linkedin.com/in/robert-romero-a61403291/" target="_blank" rel="noopener noreferrer">
-            <img className='contact-image' src="/Images/linkedIn.png" alt='LinkedIn'></img>
+            <img className='contact-image' src={`${process.env.NEXT_PUBLIC_BASE_PATH}/Images/linkedIn.png"`} alt='LinkedIn'></img>
           </a>
         </div>
         <div className='middle'>
