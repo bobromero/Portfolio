@@ -40,7 +40,7 @@ export default function Page() {
                 <div className='education-div'>
                   <h4 className='subsection-title'>Florida State University</h4>
                   <div className='center'>
-                    <img className='education-image' src="/Images/fsu.png" alt='fsu logo'></img>
+                    <img className='education-image' src="/Portfolio/Images/fsu.png" alt='fsu logo'></img>
 
                   </div>
                   <p className='main-page-font text-center'>January 2022 - December 2025</p>
@@ -49,7 +49,7 @@ export default function Page() {
                 <div className='education-div '>
                   <h4 className='subsection-title'>Christopher Columbus High School</h4>
                   <div className='center'>
-                    <img className='education-image' src="/Images/columbus.jpg" alt='CCHS logo'></img>
+                    <img className='education-image' src="/Portfolio/Images/columbus.jpg" alt='CCHS logo'></img>
 
                   </div>
                   <p className='main-page-font text-center'>August 2017 - June 2021</p>
@@ -57,7 +57,7 @@ export default function Page() {
                 <div className='education-div'>
                   <h4 className='subsection-title'>Eagle Scout</h4>
                   <div className='center'>
-                    <img className='education-image' src="/Images/bsa.png" alt='BSA logo'></img>
+                    <img className='education-image' src="/Portfolio/Images/bsa.png" alt='BSA logo'></img>
 
                   </div>
                   <p className='main-page-font text-center'>August 2010 - December 2020</p>
