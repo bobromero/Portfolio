@@ -1,6 +1,3 @@
-import ProjectCard from '@/components/ProjectCard'
-import GetCards, { CardType } from '@/public/GetCards'
-import React, { ReactElement } from 'react'
 import Link from 'next/link'
 
 import "./blog.css"
@@ -11,9 +8,14 @@ function blog() {
 
             <h1>Blog Posts</h1>
 
-            <Link className='navbar-text' href="/blog/posts/Post1">
-                My First Blog Post
-            </Link>
+            <div>
+                <Link href="/blog/posts/Post1">
+                    <h3>My First Blog Post</h3>
+                </Link>
+                <Link href="/blog/posts/Post1">
+                    <h3>My First Blog Post Againt</h3>
+                </Link>
+            </div>
 
         </div>
     )
