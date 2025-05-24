@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { CardInfo } from './info/CardInfo'
+import CardInfo from './info/CardInfo'
 
 type Props = {}
 

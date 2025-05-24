@@ -1,4 +1,4 @@
-import { CardInfo } from "@/components/info/CardInfo";
+import CardInfo from "@/components/info/CardInfo";
 import ProjectCard from "@/components/ProjectCard";
 import Card from "@/components/Card";
 

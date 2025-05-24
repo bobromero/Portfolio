@@ -1,13 +1,16 @@
 import React from 'react'
+import Link from 'next/link'
 
 
 function Post1() {
     return (
         <div className="post">
-            <a href={""}>
+            <Link className='navbar-text' href="/projects">
                 <h1>First blog post!</h1>
                 <p>This is my first blog post!</p>
-            </a>
+
+
+            </Link>
         </div>
     )
 }

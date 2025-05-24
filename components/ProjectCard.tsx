@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardInfo } from './info/CardInfo'
+import CardInfo from './info/CardInfo'
 
 function ProjectCard({ Title, description, Image, Link }: CardInfo) {
     return (
