@@ -11,6 +11,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 1vw;
+    letter-spacing: 1px;
 }
 
 .navbar-text {
