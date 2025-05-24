@@ -13,18 +13,25 @@
 
     display: grid;
     grid-template-rows: auto auto;
-    background-color: #3b3b3b;
-    border-radius: 10px;
     margin: 1rem;
+    background-color: #1f1f1f;
+    border-radius: 10px;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 3px rgb(0 0 0 / 0.6));
+    font-size: 3rem;
 }
 
 .post h1 {
-    font-size: .75em;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 3px rgb(0 0 0 / 0.6));
+    font-size: 1em;
     padding: 2rem;
 }
 
 .post p {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 3px rgb(0 0 0 / 0.6));
     font-size: .5em;
     padding: 2rem;
 }

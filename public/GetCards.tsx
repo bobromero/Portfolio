@@ -18,12 +18,11 @@ function GetCards(type: CardType) {
     let components: ReactElement[] = []
     jsonObjects.forEach((element: CardInfo) => {
         if (type == CardType.Card) {
-            var x: ReactElement = (
-                <Card key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} > </Card>
-            )
+            var x: ReactElement = (< Card key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} ></Card>)
+
         } else if (CardType.Project) {
             var x: ReactElement = (
-                <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} > </ProjectCard>
+                <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} ></ProjectCard>
             )
         }
 
