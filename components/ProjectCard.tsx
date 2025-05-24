@@ -1,26 +1,25 @@
 import React from 'react'
-import Card from '../components/Card'
-import CardInfo from './info/CardInfo'
+import { CardInfo } from './info/CardInfo'
 
-function ProjectCard({Title, description, Image, Link}: CardInfo) {
-  return (
-    <div className='project-card'>
-      <a className='project-card-grid'  href={Link} target="_blank" rel="noopener noreferrer">
-        <h1 className='card-title'>
-            {Title}
-        </h1>
+function ProjectCard({ Title, description, Image, Link }: CardInfo) {
+    return (
+        <div className='project-card'>
+            <a className='project-card-grid' href={Link} target="_blank" rel="noopener noreferrer">
+                <h1 className='card-title'>
+                    {Title}
+                </h1>
 
-        <p className='card-description main-page-font'>
-            {description}
-        </p>
+                <p className='card-description main-page-font'>
+                    {description}
+                </p>
 
-        <div className='flex justify-center '>
-          <img className='project-card-image' src={Image}></img>
+                <div className='flex justify-center '>
+                    <img className='project-card-image' src={Image}></img>
 
+                </div>
+            </a>
         </div>
-      </a>
-    </div>
-  )
+    )
 }
 
 export default ProjectCard

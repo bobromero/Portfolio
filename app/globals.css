@@ -47,13 +47,17 @@ body {
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
 
-.navbar {
-    background-color: #1f1f1f;
-
-    padding-bottom: 1em;
-
+.navbar-container {
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: auto min-content auto;
     gap: .1em;
 }
 

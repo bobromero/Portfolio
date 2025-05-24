@@ -1,0 +1,14 @@
+{
+    "Posts": {
+        "Post1": {
+            "Title": "post1",
+            "Date": "2025-05-24",
+            "Content": "content"
+        },
+        "Post2": {
+            "Title": "post2",
+            "Date": "2025-05-24",
+            "Content": "content"
+        }
+    }
+}

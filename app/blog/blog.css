@@ -1,0 +1,28 @@
+#posts {
+    color: white;
+    font-size: 3em;
+    padding: 2rem;
+
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.post {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.post h1 {
+    font-size: .75em;
+    padding: 2rem;
+}
+
+.post p {
+    font-size: .5em;
+    padding: 2rem;
+}

@@ -1,4 +1,4 @@
-import CardInfo from "@/components/info/CardInfo";
+import { CardInfo } from "@/components/info/CardInfo";
 import ProjectCard from "@/components/ProjectCard";
 import Card from "@/components/Card";
 
@@ -9,7 +9,7 @@ import Projects from "@/public/ProjectCards/ProjectCards.json"
 
 export enum CardType {
     Card,
-    Project
+    Project,
 }
 
 function GetCards(type: CardType) {
@@ -19,11 +19,11 @@ function GetCards(type: CardType) {
     jsonObjects.forEach((element: CardInfo) => {
         if (type == CardType.Card) {
             var x: ReactElement = (
-                <Card key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link}></Card>
+                <Card key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} > </Card>
             )
-        } else {
+        } else if (CardType.Project) {
             var x: ReactElement = (
-                <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link}></ProjectCard>
+                <ProjectCard key={element.Title} Title={element.Title} description={element.description} Image={element.Image} Link={element.Link} > </ProjectCard>
             )
         }
 
