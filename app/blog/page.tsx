@@ -12,8 +12,8 @@ function blog() {
                 <Link href="/blog/posts/Post1">
                     <h3>My First Blog Post</h3>
                 </Link>
-                <Link href="/blog/posts/Post1">
-                    <h3>My First Blog Post Againt</h3>
+                <Link href="/blog/posts/Post2">
+                    <h3>My Second Blog post</h3>
                 </Link>
             </div>
 
