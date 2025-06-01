@@ -14,82 +14,9 @@ body {
     letter-spacing: 1px;
 }
 
-.navbar-text {
-    color: aliceblue;
-    transition: 0.4s;
-    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 3px rgb(0 0 0 / 0.6));
-
-    flex: 0 1 auto;
-    padding: .2em;
-    margin: .1em;
 
 
-    font-size: 1.5em;
-    border-radius: 10px;
-}
 
-.navbar-text:hover {
-    color: #8f3434;
-    transition: 0.4s;
-    border-radius: 15px;
-}
-
-.navbar-name {
-    color: aliceblue;
-    font-size: 3em;
-    background-color: #1f1f1f;
-    padding: .3em;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.navbar-name-text {
-    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
-}
-
-.navbar-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.navbar {
-    background-color: #1f1f1f;
-    justify-content: center;
-
-    display: grid;
-    grid-template-columns: auto min-content auto;
-    gap: .1em;
-}
-
-.card {
-    background-color: #2e2e2e;
-    margin: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border-radius: 10px;
-    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
-
-    transition: .3s;
-
-    text-align: center;
-
-    align-content: center;
-}
-
-.card:hover {
-    background-color: #410000;
-    /* color: #ffcaca; */
-
-}
-
-.card-grid {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 2em;
-}
 
 
 .about-me {
@@ -130,12 +57,12 @@ body {
 
 .main-page-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 75% 25%;
 }
 
 .info-card-title {
     padding: .5em;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
     text-align: center;
     filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 8px rgb(0 0 0 / 0.6));
@@ -144,7 +71,7 @@ body {
 .info-card-description {
     padding-left: 2em;
     padding-right: 2em;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 200;
     text-align: center;
 }
@@ -180,24 +107,6 @@ body {
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
 }
 
-.card-title {
-    font-weight: 600;
-    font-size: 2em;
-    padding: 1em;
-    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(2 10px 10px rgb(0 0 0 / 0.6));
-}
-
-.card-description {
-    padding: 1em;
-    font-size: 2em;
-}
-
-.card-image {
-    max-width: 80%;
-    height: auto;
-
-
-}
 
 .summary-grid {
     display: grid;
@@ -213,7 +122,7 @@ body {
 
 .subsection-title {
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.5em;
 
     text-align: center;
 
@@ -222,7 +131,7 @@ body {
 }
 
 .main-page-font {
-    font-size: 1.5em;
+    font-size: 1em;
     transition: .2s;
 
     padding: 1em;
@@ -235,7 +144,6 @@ body {
     transition: .5s;
 
     padding: 1em;
-    font-size: 1.5em;
 }
 
 .read-more strong:hover {
@@ -261,7 +169,7 @@ body {
     margin: 1em;
     padding: 2em;
     border-radius: 50px;
-    max-width: 80%;
+    max-width: 50%;
 }
 
 .education-image {

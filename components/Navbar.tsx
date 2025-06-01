@@ -1,31 +1,33 @@
 import React from 'react'
 import Link from 'next/link'
+import '../css/navbar.css'
 
 function Navbar() {
     return (
-        <div className='navbar-container'>
-            <div className='navbar-name'>
-                <h3 className='font-bold font-sans navbar-name-text'>Robert Romero</h3>
+        <div>
+            <div className='navbar'>
+                <div className='navbar-name'>
+                    <h3 className='navbar-text'>Robert Romero</h3>
+                </div>
+                <div id='l'>
+                    <Link href="/">
+                        <h3 className='navbar-text'>Summary</h3>
+                    </Link>
+                </div>
+
+                <div id='c'>
+                    <Link href="/projects">
+                        <h3 className='navbar-text'>Projects</h3>
+                    </Link>
+                </div>
+
+                <div id='r'>
+                    <Link href="/blog">
+                        <h3 className='navbar-text'>Blog</h3>
+                    </Link>
+                </div>
+
             </div>
-            <nav className='navbar'>
-                <div className='middle flex justify-end'>
-                    <Link className='navbar-text' href="/"><h3 className='p-1'>Summary</h3></Link>
-                </div>
-
-                <div className='middle flex justify-center'>
-                    <Link className='navbar-text' href="/projects"><h3 className='p-1'>Projects</h3></Link>
-                </div>
-
-                <div className='middle flex justify-start'>
-                    <Link className='navbar-text' href="/blog"><h3 className='p-1'>Blog</h3></Link>
-                </div>
-
-            </nav>
-
-
-
-
-
 
         </div>
     )

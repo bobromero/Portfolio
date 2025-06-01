@@ -1,5 +1,6 @@
 import React from 'react'
 import CardInfo from './info/CardInfo'
+import '@/css/card.css'
 
 function Card({ Title, description, Image, Link }: CardInfo) {
     return (
