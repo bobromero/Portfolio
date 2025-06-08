@@ -8,7 +8,7 @@ function Post1() {
             <h1>Second Blog Post, MIT App Inventor!</h1>
             <div className="post-content">
                 <div className="flex center">
-                    <img className="postimg" src="/Portfolio/Images/BlogPost2/Selfie.png" alt="Selfie"></img>
+                    <img className="postimg" src="/Portfolio/Images/BlogPost3/Selfie.png" alt="Selfie"></img>
                 </div>
                 <p>
                     My group and I are making a clicker game for our project. We met via facetime and decided on a retake on a classic. You shake your phone and a ball bounces around the screen. The more it bounces, the more points you get and the more you can progress.
