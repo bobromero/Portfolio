@@ -2,7 +2,7 @@ import React from 'react'
 import "../../blog.css"
 
 
-function Post1() {
+function Post3() {
     return (
         <div className="post">
             <h1>Second Blog Post, MIT App Inventor!</h1>
@@ -31,4 +31,4 @@ function Post1() {
     )
 }
 
-export default Post1
+export default Post3

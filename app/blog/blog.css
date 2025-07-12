@@ -90,6 +90,14 @@
     padding-right: 4em;
 }
 
+.cad-post {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 1em;
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 1350px) {}
 
 @media only screen and (max-width: 1025px) {}

@@ -18,6 +18,9 @@ function blog() {
                 <Link href="/blog/posts/Post3">
                     <h3>Group Project Started!</h3>
                 </Link>
+                <Link href="/blog/posts/Post4">
+                    <h3>Cad objects</h3>
+                </Link>
             </div>
 
         </div>
