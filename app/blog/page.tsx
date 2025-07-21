@@ -13,13 +13,16 @@ function blog() {
                     <h3>My First Blog Post</h3>
                 </Link>
                 <Link href="/blog/posts/Post2">
-                    <h3>My Second Blog post</h3>
+                    <h3>My Second Blog Post</h3>
                 </Link>
                 <Link href="/blog/posts/Post3">
                     <h3>Group Project Started!</h3>
                 </Link>
                 <Link href="/blog/posts/Post4">
-                    <h3>Cad objects</h3>
+                    <h3>Tinker Cad Objects</h3>
+                </Link>
+                <Link href="/blog/posts/Post5">
+                    <h3>Free Cad Objects</h3>
                 </Link>
             </div>
 
