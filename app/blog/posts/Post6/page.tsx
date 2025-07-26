@@ -4,7 +4,7 @@ import "../../blog.css";
 function Post6() {
   return (
     <div className="post">
-      <h1>Fabricating for a Function</h1>
+      <h1>Fabricating for a Function Pt.1</h1>
       <div className="post-content">
         <div className="flex center cad-post">
           <p className="post-text">

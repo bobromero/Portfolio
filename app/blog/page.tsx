@@ -24,7 +24,16 @@ function blog() {
           <h3>Free Cad Objects</h3>
         </Link>
         <Link href="/blog/posts/Post6">
-          <h3>Golf Tee Holder</h3>
+          <h3>Golf Tee Holder Pt.1</h3>
+        </Link>
+        <Link href="/blog/posts/Post7">
+          <h3>Fusion 360 Objects</h3>
+        </Link>
+        <Link href="/blog/posts/Post8">
+          <h3>Golf Tee Holder Pt.2</h3>
+        </Link>
+        <Link href="/blog/posts/Post9">
+          <h3>Golf Tee Holder Pt.3</h3>
         </Link>
       </div>
     </div>
