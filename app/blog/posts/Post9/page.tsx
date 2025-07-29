@@ -9,12 +9,12 @@ function Post9() {
         <div className="flex center cad-post">
           <h2>3d printed version</h2>
           <p className="post-text">
-            This is the first part I made in Free cad using the tutorial that
-            was given in class.
+            I printed the part and it works! It is not perfect and I have made
+            some changes to make it better, but it works!
           </p>
           <img
             className="postimg"
-            src="/Portfolio/Images/BlogPost9/part1.png"
+            src="/Portfolio/Images/BlogPost9/printed.jpg"
             alt="3dPrinted thang1"
           ></img>
         </div>
